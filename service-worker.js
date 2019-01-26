@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/afraff/fcc-drum-machine/precache-manifest.a5d412abbe72f8f2942c96f730e38a5e.js"
+  "/fcc-drum-machine/precache-manifest.af77d179e3d057ba06bccd369a2ec503.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/afraff/fcc-drum-machine/index.html", {
+workbox.routing.registerNavigationRoute("/fcc-drum-machine/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
